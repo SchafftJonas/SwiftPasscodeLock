@@ -80,6 +80,10 @@ public class PasscodeLockViewController: UIViewController, PasscodeLockTypeDeleg
     
     // MARK: - View
     
+    override public func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
         
